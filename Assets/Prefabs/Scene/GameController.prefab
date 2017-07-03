@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &183374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 430036}
+  - 114: {fileID: 11479640}
+  - 114: {fileID: 11458902}
+  - 114: {fileID: 11441344}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11441344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75fbd054b503a443faa6cd665a38ed26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverText: {fileID: 0}
+--- !u!114 &11458902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9140faca55c462c99b68d32b629f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Velik
+  scorePoint: 10
+  coinPoint: 10
+  scoreText: {fileID: 0}
+  coinsText: {fileID: 0}
+--- !u!114 &11479640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b97e4940590492197b51f541893673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 7
+  squareWidth: 250
+  iterations: 50
+  levelConfigs:
+  - levelScale: 1000000000
+    doSpawn: 1
+    asteroids:
+    - obj: {fileID: 196492, guid: 29a5a90ec5eba484284095fe901dd737, type: 2}
+      chance: 100
+      minScale: 3
+      maxScale: 10
+    - obj: {fileID: 173152, guid: ee9e25e72695e48599bdf58dbe7dc1bd, type: 2}
+      chance: 80
+      minScale: 5
+      maxScale: 20
+    - obj: {fileID: 100432, guid: 7472cdd4e1dca47c7a75db288d4303e9, type: 2}
+      chance: 50
+      minScale: 30
+      maxScale: 50
+    - obj: {fileID: 105714, guid: 86ca956c76cd744b38e69362367745e5, type: 2}
+      chance: 40
+      minScale: 40
+      maxScale: 60
+    - obj: {fileID: 124832, guid: 75509dea7eb254bd0b22d6fc8febd43e, type: 2}
+      chance: 70
+      minScale: 10
+      maxScale: 20
+    - obj: {fileID: 108324, guid: fd1503c18a54448b1ae98114a91eb47e, type: 2}
+      chance: 40
+      minScale: 40
+      maxScale: 60
+    - obj: {fileID: 127086, guid: 26349ca4dc2ff4b798838c5562d11782, type: 2}
+      chance: 35
+      minScale: 50
+      maxScale: 70
+    - obj: {fileID: 155108, guid: 3bea18f9cf6a2494aa75c1abf44b46f3, type: 2}
+      chance: 40
+      minScale: 30
+      maxScale: 50
+    - obj: {fileID: 161844, guid: 0034787edd1184471afe5f5ae33df545, type: 2}
+      chance: 25
+      minScale: 60
+      maxScale: 100
+    - obj: {fileID: 184996, guid: c83530de8c1a14fce925285898d0ee67, type: 2}
+      chance: 25
+      minScale: 70
+      maxScale: 100
+    - obj: {fileID: 183366, guid: c36a522f827ef43ccb7fabf13dce47e4, type: 2}
+      chance: 25
+      minScale: 70
+      maxScale: 90
+    - obj: {fileID: 152622, guid: e2c7a5212fe684026a401a485125f917, type: 2}
+      chance: 100
+      minScale: 100
+      maxScale: 120
+    - obj: {fileID: 145638, guid: 5a173a87d21724786a768601f21f056f, type: 2}
+      chance: 20
+      minScale: 80
+      maxScale: 100
+    - obj: {fileID: 120456, guid: 94adc748447fc402d91ce2613175c2a7, type: 2}
+      chance: 70
+      minScale: 10
+      maxScale: 30
+    - obj: {fileID: 156776, guid: 65550e80584e54ffc8bc31135c2e8c32, type: 2}
+      chance: 50
+      minScale: 40
+      maxScale: 60
+    weapons:
+    - obj: {fileID: 145576, guid: 231e2a3112d4747b8b44323929bf40c6, type: 2}
+      chance: 10
+    - obj: {fileID: 101672, guid: b4fdf16a0af114cc88a631e47fda6674, type: 2}
+      chance: 10
+    coins:
+    - obj: {fileID: 152554, guid: d3f773edb46af4c80bc2c3c85d2b2ce3, type: 2}
+      chance: 100
+      minScale: 6
+    bonuses:
+    - obj: {fileID: 113502, guid: e790da9651be049ecb49628edd951a2f, type: 2}
+      chance: 100
+      minScale: 6
+    minDistBetweenAsteroids: 40
+    minDistBetweenCoins: 30
+    minDistBetweenBonuses: 400
+  minWeaponSpawnScale: 30
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 183374}
+  m_IsPrefabParent: 1

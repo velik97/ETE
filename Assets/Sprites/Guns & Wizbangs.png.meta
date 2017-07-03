@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: dabd13d6de9ac4d37a173b3a1f1d1bcc
+timeCreated: 1440594882
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Guns & Wizbangs_0
+    21300002: Guns & Wizbangs_1
+    21300004: Guns & Wizbangs_2
+    21300006: Guns & Wizbangs_3
+    21300008: Guns & Wizbangs_4
+    21300010: Guns & Wizbangs_5
+    21300012: Guns & Wizbangs_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Guns & Wizbangs_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 909
+        width: 75
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Guns & Wizbangs_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 926
+        width: 445
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Guns & Wizbangs_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 898
+        width: 34
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Guns & Wizbangs_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 461
+        width: 121
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Guns & Wizbangs_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 459
+        width: 149
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Guns & Wizbangs_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 459
+        width: 139
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Guns & Wizbangs_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 433
+        width: 334
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
